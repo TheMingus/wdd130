@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+img {
+    max-width: 1000px;
+    border: 4px #006EB6 solid;
+}
+header {
+    background-color: #006EB6;
+    padding: 20px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+footer {
+    background-color: #006EB6;
+    padding: 20px;
+    color: white;
+}
