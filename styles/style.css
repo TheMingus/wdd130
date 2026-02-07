@@ -1,0 +1,44 @@
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #999;
+}
+
+nav {
+    border: 3px solid #4a4326;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    background-color: grey;
+    padding: 2em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: white;
+}
+
+section#blue {
+    background-color: lightblue;
+}
+
+section#red {
+    background-color: coral;
+}
+
+section#green {
+    background-color: lightgreen;
+}
