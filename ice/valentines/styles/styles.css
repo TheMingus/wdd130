@@ -1,0 +1,57 @@
+/* Add your CSS here to style your valentines day page */
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Oooh+Baby&display=swap');
+
+nav {
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+}
+
+body {
+    background: linear-gradient(to top, #d60000, #ffc5e6);
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+main {
+    text-align: center;
+    font-family: "Julius Sans One";
+}
+
+img {
+    border-color: #ff257e;
+    border-radius: 12px;
+    align-content: center;
+}
+
+h1 {
+    font-family: "Oooh Baby";
+    font-size: 80px;
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+ul {
+    display: flex;
+    gap: 10vh;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Julius Sans One";
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
+footer {
+    font-family: "Julius Sans one";
+    margin: 0px;
+    padding: 0px;
+}
