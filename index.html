@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magnus Chidester | WDD130 Portal Page</title>
+    <link href="styles/style.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="images/logo.jpg" alt="Logo">
+        <a href="index.html"><img class="logo" src="images/logo.webp" alt="Logo"></a>
         <nav>
             <a href=#wwr>White Water Rafting</a>
             <a href=#ice>ICE</a>
@@ -17,13 +18,22 @@
     <main>
         <section id="about_me">
             <h2>About Me</h2>
+            <div id="about_text">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe sed, hic minus accusantium modi obcaecati ab laboriosam repellendus sit harum aspernatur totam excepturi quos quia quisquam voluptatum asperiores quaerat adipisci.</p>
+                <ul> List of things about me.
+                    <li>item</li>
+                    <li>item</li>
+                    <li>item</li>
+                </ul>
+            </div>
             <img src="images/MagnusChidester.jpeg" alt="photo of Magnus Chidester">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe sed, hic minus accusantium modi obcaecati ab laboriosam repellendus sit harum aspernatur totam excepturi quos quia quisquam voluptatum asperiores quaerat adipisci.</p>
         </section>
         <section id="wwr">
             <h2>White Water Rafting Page</h2>
-            <img src="https://picsum.photos/1600/900" alt="Sample Image">
-            <img src="https://picsum.photos/1600/900" alt="Sample Image">
+            <h3 class="wire_labels">Wireframe; Basis for Design</h3>
+            <h3 class="wire_labels">Final Result</h3>
+            <img src="images/wwr_wireframe.png" alt="white water rafting wireframe">
+            <iframe src="wwr/index.html"></iframe>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe sed, hic minus accusantium modi obcaecati ab laboriosam repellendus sit harum aspernatur totam excepturi quos quia quisquam voluptatum asperiores quaerat adipisci.</p>
         </section>
         <section id="ice">
@@ -33,12 +43,32 @@
                 <tr>
                     <th>Exercise</th>
                     <th>Description</th>
-                    <th>Link</th>
+                    <th>Page</th>
                 </tr>
                 <tr>
-                    <td>Example</td>
-                    <td>Example</td>
-                    <td>Example</td>
+                    <td><a href="ice/apostle_spotlight/apostles.html" target="_blank">Apostle Spotlight</td>
+                    <td>A page displaying the First Presidency and Quorum of the twelve apostles.</td>
+                    <td><iframe src="ice/apostle_spotlight/apostles.html"></iframe></td>
+                </tr>
+                <tr>
+                    <td><a href="ice/favorite_devo/favdevo.html" target="_blank">Favorite Devotional</td>
+                    <td>A page listing my favorite devotionals.</td>
+                    <td><iframe src="ice/favorite_devo/favdevo.html"></iframe></td>
+                </tr>
+                <tr>
+                    <td><a href="ice/grid_flags/flags.html" target="_blank">Grid Flags</td>
+                    <td>A page demonstrating country flags drawn entirely with CSS.</td>
+                    <td><iframe src="ice/grid_flags/flags.html"></iframe></td>
+                </tr>
+                <tr>
+                    <td><a href="ice/prophet_cards/oaks.html" target="_blank">Prophet Cards</td>
+                    <td>A page sharing information about President Oaks.</td>
+                    <td><iframe src="ice/prophet_cards/oaks.html"></iframe></td>
+                </tr>
+                <tr>
+                    <td><a href="ice/valentines/index.html" target="_blank">Valentines</td>
+                    <td>A page celebrating the Valentines Holiday.</td>
+                    <td><iframe src="ice/valentines/index.html"></iframe></td>
                 </tr>
             </table>
         </section>
@@ -48,6 +78,8 @@
         <a href="https://www.instagram.com/themrmingus/">
             <image src="https://static.cdninstagram.com/rsrc.php/v4/yM/r/7xwrlYffOBb.png">
         </a>
+        Need to reach me? Submit your contact information and I'll get back to you.
+        <input>
     </footer>
 </body>
 </html>
