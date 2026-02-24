@@ -36,6 +36,7 @@
   display: grid;
   grid-template-columns: repeat(4, 50px);
   grid-template-rows: repeat(4, 50px);
+  height: 250px;
 }
 .red2 {
   width: 100px; 
