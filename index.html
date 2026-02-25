@@ -5,21 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magnus Chidester | WDD130 Portal Page</title>
     <link href="styles/style.css" rel="stylesheet">
+    <script src="scripts/movie.js"></script>
 </head>
 <body>
     <header>
         <a href="index.html"><img class="logo" src="images/logo.webp" alt="Logo"></a>
         <nav>
-            <a href=#wwr>White Water Rafting</a>
-            <a href=#ice>ICE</a>
-            <a href=#about_me>About Me</a>
+            <a href=index.html#about_me>About Me</a>
+            <a href=index.html#wwr>White Water Rafting</a>
+            <a href=ice.html>In Class Exercises</a>
         </nav>    
     </header>
     <main>
         <section id="about_me">
             <h2>About Me</h2>
             <div id="about_text">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe sed, hic minus accusantium modi obcaecati ab laboriosam repellendus sit harum aspernatur totam excepturi quos quia quisquam voluptatum asperiores quaerat adipisci.</p>
+                <p>My name is Magnus Chidester and I am a Junior at <a href="https://www.byui.edu" target="_blank">Brigham Young University - Idaho</a>. I am studying Chemistry. Following my undergraduate education, I plans to attend law school. I am originally from central Texas, where I have lived the majority of my life.</p>
+                <p>When I am not working on homework, I am probably watching a movie. <span id="movie"><a href="https://letterboxd.com/themrmingus/" target="_blank">I log all movies I watch on Letterboxd.</a></span></p>
                 <ul> List of things about me.
                     <li>item</li>
                     <li>item</li>
@@ -36,55 +38,17 @@
             <iframe src="wwr/index.html"></iframe>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe sed, hic minus accusantium modi obcaecati ab laboriosam repellendus sit harum aspernatur totam excepturi quos quia quisquam voluptatum asperiores quaerat adipisci.</p>
         </section>
-        <section id="ice">
-            <h2>ICE Challenges</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe sed, hic minus accusantium modi obcaecati ab laboriosam repellendus sit harum aspernatur totam excepturi quos quia quisquam voluptatum asperiores quaerat adipisci.</p>
-            <table>
-                <tr>
-                    <th>Exercise</th>
-                    <th>Description</th>
-                    <th>Page</th>
-                </tr>
-                <tr>
-                    <td><a href="ice/apostle_spotlight/apostles.html" target="_blank">Apostle Spotlight</td>
-                    <td>A page displaying the First Presidency and Quorum of the twelve apostles.</td>
-                    <td><iframe src="ice/apostle_spotlight/apostles.html"></iframe></td>
-                </tr>
-                <tr>
-                    <td><a href="ice/favorite_devo/favdevo.html" target="_blank">Favorite Devotional</td>
-                    <td>A page listing my favorite devotionals.</td>
-                    <td><iframe src="ice/favorite_devo/favdevo.html"></iframe></td>
-                </tr>
-                <tr>
-                    <td><a href="ice/grid_flags/flags.html" target="_blank">Grid Flags</td>
-                    <td>A page demonstrating country flags drawn entirely with CSS.</td>
-                    <td><iframe src="ice/grid_flags/flags.html"></iframe></td>
-                </tr>
-                <tr>
-                    <td><a href="ice/prophet_cards/oaks.html" target="_blank">Prophet Cards</td>
-                    <td>A page sharing information about President Oaks.</td>
-                    <td><iframe src="ice/prophet_cards/oaks.html"></iframe></td>
-                </tr>
-                <tr>
-                    <td><a href="ice/valentines/index.html" target="_blank">Valentines</td>
-                    <td>A page celebrating the Valentines Holiday.</td>
-                    <td><iframe src="ice/valentines/index.html"></iframe></td>
-                </tr>
-                <tr>
-                    <td><a href="ice/positioning/positioning.html" target="_blank">CSS Positioning</td>
-                    <td>A page demonstrating div positioning in CSS.</td>
-                    <td><iframe src="ice/positioning/positioning.html"></iframe></td>
-                </tr>
-            </table>
-        </section>
     </main>
     <footer>
         &copy; 2026 Magnus Chidester
         <a href="https://www.instagram.com/themrmingus/">
             <image src="https://static.cdninstagram.com/rsrc.php/v4/yM/r/7xwrlYffOBb.png">
         </a>
-        Need to reach me? Submit your contact information and I'll get back to you.
-        <input>
+        <a href="https://letterboxd.com/themrmingus/">
+            <image src="https://s.ltrbxd.com/static/img/touch-icon-192x192-lO1g3Ot4.png">
+        </a>
+        Need to reach me? Submit some form of contact information and I'll get back to you.
+        <input><button type="submit">Submit</button>
     </footer>
 </body>
 </html>
