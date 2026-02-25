@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'CMURoman';
-    src: url(/fonts/cmunrm.woff2);
+    src: url(~/fonts/cmunrm.woff2);
 }
 
 body {
@@ -8,6 +8,7 @@ body {
     background-color: #BDD4E7;
     color: #23001E;
     font-size: 18px;
+    font-style: bold;
 }
 
 header {
