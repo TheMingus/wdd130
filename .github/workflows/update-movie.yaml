@@ -20,8 +20,12 @@ jobs:
 
       - name: Extract First Movie
         run: |
-          TITLE=$(grep -oPm1 "(?<=<title>)[^<]+" rss.xml | sed -n 2p)
-          LINK=$(grep -oPm1 "(?<=<link>)[^<]+" rss.xml | sed -n 2p)
+          sudo apt-get update
+          sudo apt-get install -y libxml2-utils
+      
+          TITLE=$(xmllint --xpath "string(//item[1]/title)" rss.xml)
+          LINK=$(xmllint --xpath "string(//item[1]/link)" rss.xml)
+      
           echo "{\"title\": \"$TITLE\", \"link\": \"$LINK\"}" > movie.json
 
       - name: Commit
