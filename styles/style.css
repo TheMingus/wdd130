@@ -167,6 +167,21 @@ footer input {
     width: 20vw;
 }
 
+footer input {
+    border-style: outset;
+    border-radius: 10px;
+    background-color: #b79e8a;
+    /* font-family: ; */
+    font-size: 14px;
+    padding: 4px;
+}
+
 footer button {
     width: 5vw;
+    font-family: 'CMURoman';
+    font-size: 14px;
+    color: #23001E;
+    background-color: #b79e8a;
+    border-color: none;
+    border-radius: 10px;
 }
