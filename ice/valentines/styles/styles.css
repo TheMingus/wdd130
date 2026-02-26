@@ -8,9 +8,10 @@ nav {
 }
 
 body {
+    width: 80vw;
     background: linear-gradient(to top, #d60000, #ffc5e6);
-    margin-left: 10vh;
-    margin-right: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 main {
@@ -22,6 +23,7 @@ img {
     border-color: #ff257e;
     border-radius: 12px;
     align-content: center;
+    max-width: 75vw;
 }
 
 h1 {
